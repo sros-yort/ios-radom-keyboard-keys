@@ -14,17 +14,19 @@ class ViewController: UIViewController, KeyboardDelegate {
     var keyboard: Keyboard?
     
     @IBOutlet weak var txtName: UITextField!
+    @IBOutlet weak var txtPwd: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         keyboard = Keyboard()
         keyboard?.delegate = self
-        txtName.inputView = keyboard
+//        txtName.inputView = keyboard
+        txtPwd.inputView = keyboard
     }
     
     func keyWasTapped(action: KeyAction, character: String) {
-        keyboard?.textFieldAction(action: action, textField: txtName, character: character)
+        keyboard?.textFieldOperation(action: action, character: character, textFields: txtPwd /*, txtName*/)
     }
     
 }

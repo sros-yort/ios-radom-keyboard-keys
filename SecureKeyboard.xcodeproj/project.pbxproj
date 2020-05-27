@@ -61,7 +61,7 @@
 		044884C8247E41A5001F2E29 /* ResourceBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResourceBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		044884CA247E41A5001F2E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		044884CE247E41C6001F2E29 /* Keyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Keyboard.xib; sourceTree = "<group>"; };
-		044884D4247E4237001F2E29 /* Consumer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Consumer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		044884D4247E4237001F2E29 /* KLKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		044884D6247E4237001F2E29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		044884D8247E4237001F2E29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		044884DA247E4237001F2E29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 			children = (
 				044884A9247E3F3A001F2E29 /* libSecureKeyboard.a */,
 				044884C8247E41A5001F2E29 /* ResourceBundle.bundle */,
-				044884D4247E4237001F2E29 /* Consumer.app */,
+				044884D4247E4237001F2E29 /* KLKeyboard.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -205,7 +205,7 @@
 			);
 			name = Consumer;
 			productName = Consumer;
-			productReference = 044884D4247E4237001F2E29 /* Consumer.app */;
+			productReference = 044884D4247E4237001F2E29 /* KLKeyboard.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -536,8 +536,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.klsoft.Consumer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.klsoft.SecureKeybard;
+				PRODUCT_NAME = KLKeyboard;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -554,8 +554,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.klsoft.Consumer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.klsoft.SecureKeybard;
+				PRODUCT_NAME = KLKeyboard;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

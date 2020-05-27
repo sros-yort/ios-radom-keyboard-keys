@@ -53,14 +53,10 @@ public class Keyboard: UIView {
     }
     
     func initializeSubviews() {
-        //        let keyboardNib = UINib(nibName: "Keyboard", bundle: nil)
-        //        keyboardView = keyboardNib.instantiate(withOwner: self, options: nil)[0] as? UIView
-        
         let bundlePath = Bundle.main.path(forResource: "ResourceBundle", ofType: "bundle")!
         let bundle = Bundle(path: bundlePath)!
         let keyboardNib = UINib(nibName: "Keyboard", bundle: bundle)
         keyboardView = keyboardNib.instantiate(withOwner: self, options: nil)[0] as? UIView
-        
         self.addSubview(keyboardView)
         loadKeys()
     }
@@ -265,13 +261,17 @@ public class Keyboard: UIView {
         sender.backgroundColor = Constants.keyPressedColour
     }
     
-    public func textFieldAction(action: KeyAction, textField: UITextField, character: String) {
-        if action == KeyAction.delete {
-            deleteText(textField: textField)
-        }else if action == KeyAction.return {
-            textField.resignFirstResponder()
-        } else {
-            textField.insertText(character)
+    public func textFieldOperation(action: KeyAction, character: String, textFields: UITextField...) {
+        for textField in textFields {
+            if textField.isFirstResponder {
+                if action == KeyAction.delete {
+                    deleteText(textField: textField)
+                }else if action == KeyAction.return {
+                    textField.resignFirstResponder()
+                } else {
+                    textField.insertText(character)
+                }
+            }
         }
     }
     
