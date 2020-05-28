@@ -12,32 +12,8 @@
 		044884C1247E40C3001F2E29 /* KeyboardDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044884C0247E40C3001F2E29 /* KeyboardDelegate.swift */; };
 		044884C3247E4122001F2E29 /* KeyAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044884C2247E4122001F2E29 /* KeyAction.swift */; };
 		044884CF247E41C6001F2E29 /* Keyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044884CE247E41C6001F2E29 /* Keyboard.xib */; };
-		044884D7247E4237001F2E29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044884D6247E4237001F2E29 /* AppDelegate.swift */; };
-		044884D9247E4237001F2E29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044884D8247E4237001F2E29 /* SceneDelegate.swift */; };
-		044884DB247E4237001F2E29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044884DA247E4237001F2E29 /* ViewController.swift */; };
-		044884DE247E4237001F2E29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044884DC247E4237001F2E29 /* Main.storyboard */; };
-		044884E0247E4238001F2E29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044884DF247E4238001F2E29 /* Assets.xcassets */; };
-		044884E3247E4238001F2E29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044884E1247E4238001F2E29 /* LaunchScreen.storyboard */; };
-		044884E8247E4258001F2E29 /* ResourceBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 044884C8247E41A5001F2E29 /* ResourceBundle.bundle */; };
-		044884EA247E4279001F2E29 /* libSecureKeyboard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 044884A9247E3F3A001F2E29 /* libSecureKeyboard.a */; };
+		0448857C247E6966001F2E29 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0448857B247E6966001F2E29 /* README.md */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		044884EF247E4473001F2E29 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 044884A1247E3F3A001F2E29 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 044884C7247E41A5001F2E29;
-			remoteInfo = ResourceBundle;
-		};
-		044884F1247E4473001F2E29 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 044884A1247E3F3A001F2E29 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 044884A8247E3F3A001F2E29;
-			remoteInfo = SecureKeyboard;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		044884A7247E3F3A001F2E29 /* CopyFiles */ = {
@@ -61,14 +37,7 @@
 		044884C8247E41A5001F2E29 /* ResourceBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResourceBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		044884CA247E41A5001F2E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		044884CE247E41C6001F2E29 /* Keyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Keyboard.xib; sourceTree = "<group>"; };
-		044884D4247E4237001F2E29 /* KLKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		044884D6247E4237001F2E29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		044884D8247E4237001F2E29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		044884DA247E4237001F2E29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		044884DD247E4237001F2E29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		044884DF247E4238001F2E29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		044884E2247E4238001F2E29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		044884E4247E4238001F2E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0448857B247E6966001F2E29 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,23 +55,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		044884D1247E4237001F2E29 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				044884EA247E4279001F2E29 /* libSecureKeyboard.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		044884A0247E3F3A001F2E29 = {
 			isa = PBXGroup;
 			children = (
+				0448857B247E6966001F2E29 /* README.md */,
 				044884AB247E3F3A001F2E29 /* SecureKeyboard */,
 				044884C9247E41A5001F2E29 /* ResourceBundle */,
-				044884D5247E4237001F2E29 /* Consumer */,
 				044884AA247E3F3A001F2E29 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,7 +73,6 @@
 			children = (
 				044884A9247E3F3A001F2E29 /* libSecureKeyboard.a */,
 				044884C8247E41A5001F2E29 /* ResourceBundle.bundle */,
-				044884D4247E4237001F2E29 /* KLKeyboard.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,20 +96,6 @@
 				044884CA247E41A5001F2E29 /* Info.plist */,
 			);
 			path = ResourceBundle;
-			sourceTree = "<group>";
-		};
-		044884D5247E4237001F2E29 /* Consumer */ = {
-			isa = PBXGroup;
-			children = (
-				044884D6247E4237001F2E29 /* AppDelegate.swift */,
-				044884D8247E4237001F2E29 /* SceneDelegate.swift */,
-				044884DA247E4237001F2E29 /* ViewController.swift */,
-				044884DC247E4237001F2E29 /* Main.storyboard */,
-				044884DF247E4238001F2E29 /* Assets.xcassets */,
-				044884E1247E4238001F2E29 /* LaunchScreen.storyboard */,
-				044884E4247E4238001F2E29 /* Info.plist */,
-			);
-			path = Consumer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,25 +135,6 @@
 			productReference = 044884C8247E41A5001F2E29 /* ResourceBundle.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		044884D3247E4237001F2E29 /* Consumer */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 044884E5247E4238001F2E29 /* Build configuration list for PBXNativeTarget "Consumer" */;
-			buildPhases = (
-				044884D0247E4237001F2E29 /* Sources */,
-				044884D1247E4237001F2E29 /* Frameworks */,
-				044884D2247E4237001F2E29 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				044884F0247E4473001F2E29 /* PBXTargetDependency */,
-				044884F2247E4473001F2E29 /* PBXTargetDependency */,
-			);
-			name = Consumer;
-			productName = Consumer;
-			productReference = 044884D4247E4237001F2E29 /* KLKeyboard.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -223,9 +150,6 @@
 						LastSwiftMigration = 1140;
 					};
 					044884C7247E41A5001F2E29 = {
-						CreatedOnToolsVersion = 11.4.1;
-					};
-					044884D3247E4237001F2E29 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
@@ -245,7 +169,6 @@
 			targets = (
 				044884A8247E3F3A001F2E29 /* SecureKeyboard */,
 				044884C7247E41A5001F2E29 /* ResourceBundle */,
-				044884D3247E4237001F2E29 /* Consumer */,
 			);
 		};
 /* End PBXProject section */
@@ -255,18 +178,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0448857C247E6966001F2E29 /* README.md in Resources */,
 				044884CF247E41C6001F2E29 /* Keyboard.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		044884D2247E4237001F2E29 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				044884E8247E4258001F2E29 /* ResourceBundle.bundle in Resources */,
-				044884E3247E4238001F2E29 /* LaunchScreen.storyboard in Resources */,
-				044884E0247E4238001F2E29 /* Assets.xcassets in Resources */,
-				044884DE247E4237001F2E29 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,49 +204,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		044884D0247E4237001F2E29 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				044884DB247E4237001F2E29 /* ViewController.swift in Sources */,
-				044884D7247E4237001F2E29 /* AppDelegate.swift in Sources */,
-				044884D9247E4237001F2E29 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		044884F0247E4473001F2E29 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 044884C7247E41A5001F2E29 /* ResourceBundle */;
-			targetProxy = 044884EF247E4473001F2E29 /* PBXContainerItemProxy */;
-		};
-		044884F2247E4473001F2E29 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 044884A8247E3F3A001F2E29 /* SecureKeyboard */;
-			targetProxy = 044884F1247E4473001F2E29 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		044884DC247E4237001F2E29 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				044884DD247E4237001F2E29 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		044884E1247E4238001F2E29 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				044884E2247E4238001F2E29 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		044884AE247E3F3A001F2E29 /* Debug */ = {
@@ -453,6 +324,7 @@
 		044884B1247E3F3A001F2E29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G4BU7JC9A2;
@@ -474,6 +346,7 @@
 		044884B2247E3F3A001F2E29 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G4BU7JC9A2;
@@ -525,42 +398,6 @@
 			};
 			name = Release;
 		};
-		044884E6247E4238001F2E29 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G4BU7JC9A2;
-				INFOPLIST_FILE = Consumer/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.klsoft.SecureKeybard;
-				PRODUCT_NAME = KLKeyboard;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		044884E7247E4238001F2E29 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G4BU7JC9A2;
-				INFOPLIST_FILE = Consumer/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.klsoft.SecureKeybard;
-				PRODUCT_NAME = KLKeyboard;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -587,15 +424,6 @@
 			buildConfigurations = (
 				044884CC247E41A5001F2E29 /* Debug */,
 				044884CD247E41A5001F2E29 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		044884E5247E4238001F2E29 /* Build configuration list for PBXNativeTarget "Consumer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				044884E6247E4238001F2E29 /* Debug */,
-				044884E7247E4238001F2E29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

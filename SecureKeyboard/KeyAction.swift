@@ -6,7 +6,9 @@
 //  Copyright © 2020 Kim & Lim Soft Co. ltd. All rights reserved.
 //
 
-public enum KeyAction {
+import UIKit
+
+@objc public enum KeyAction: Int, RawRepresentable {
     case insert
     case delete
     case `return`

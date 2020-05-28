@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class Keyboard: UIView {
+@objc public class Keyboard: UIView {
     public weak var delegate: KeyboardDelegate?
     var keyboardView: UIView!
     var keys: [UIButton] = []
@@ -37,7 +37,7 @@ public class Keyboard: UIView {
     @IBOutlet weak var stackView4: UIStackView!
     
     public init() {
-        super.init(frame: CGRect(x: 0, y: 0, width: 350, height: 250))
+        super.init(frame: CGRect(x: 0, y: 0, width: 350, height: 225))
         initializeSubviews()
     }
     
@@ -261,7 +261,7 @@ public class Keyboard: UIView {
         sender.backgroundColor = Constants.keyPressedColour
     }
     
-    public func textFieldOperation(action: KeyAction, character: String, textFields: UITextField...) {
+    @objc public func textFieldOperation(action: KeyAction, character: String, textFields: [UITextField]) {
         for textField in textFields {
             if textField.isFirstResponder {
                 if action == KeyAction.delete {

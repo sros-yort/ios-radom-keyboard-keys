@@ -6,6 +6,8 @@
 //  Copyright © 2020 Kim & Lim Soft Co. ltd. All rights reserved.
 //
 
-public protocol KeyboardDelegate: class {
-    func keyWasTapped(action: KeyAction, character: String)
+import UIKit
+
+@objc public protocol KeyboardDelegate: class {
+    @objc func keyWasTapped(action: KeyAction, character: String)
 }
