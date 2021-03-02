@@ -1,6 +1,6 @@
 # SecureKeyboard
 
-SecureKeyboard is a swift static library for random keyboard.
+SecureKeyboard is a swift static library for random keyboard keys.
 
 ## How Link the static library and resource bundle to the swift app
 
